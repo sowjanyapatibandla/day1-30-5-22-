@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ol type="1">
+     <li>What is React? What are its features</li> React was created by Jordane Walkie , a software engineer at 
+     facebook in the year 2011 and it was deployed first at the facebook newsfeed and later it was used in 
+     facebook and instagram. React is a open source front end js library. it follos the component based approach for 
+     building reusable UI components specially for single page application and it is used for developing interactive 
+     view layer of web and mobile applications. 
+    </ol>
+<ul>
+    <li>virtual Dom</li>
+    <li>one way Data Binding</li>
+    <li>Reusable component</li>
+    <li>JSX(JavaSCript Syntex Extension)</li>
+    <li>Performance</li>
+</ul>
+<li> Explain Virtual Dom</li>Dom is a document object model,created by converting HTML CSS and JS Real Dom,
+which is an object which gets created whenever any react application gets loaded on the screen for the first time.,
+whenevere react components gets mounted on the screen for the first time.now when any user makes any changes on 
+the screen like button click because of which the state variable will gets updated so in this case the changes 
+will not directly go to real Dom,instead in react we have concept known virtual DOM. so we are having two virtual doms,
+one virtual dom gets created at the time of mounting of react component so it is a copy of your real dom .another virtual
+dom is the dom which contains the new changes,updated state variable values. now these two virtual doms will get
+compared with each other and will check for the new changes. thi scomplete procedure is known as diffing algorthim, 
+no wthe new changes will be updated in your real dom.this procedure is known as recoincilliation.
+<li>Explain Diffing Algorthim</li>
+<li>React, Angular or Veu</li>
+Library is a set of reusable functions used by computer programme and framework is a piece of code that 
+dictates the architecture of a project, code calls the library but in framwork , framework calls the code . 
+in library we can control the data flow by methods but in framework we dont have any control of the data 
+flow framework decides how the data will flow that is nothing but frameworks calls the code . and in performance 
+wise react is having higher performance over angular and veu and community support and also react is having the 
+easy learning curve and react is having SPA(single page application) . 
+<li>Class vs function</li>
+<ul>
+    <li>class component uses the lifecycle methods where as in functional component have HOOKs</li>
+    <li>Functional component are also caleed stateless  component is called statefull component and 
+        there is no render function while in functional there is return</li>
+    <li> functional component accepts props as argument but props and state can be accepeted in class 
+        components</li>
+    <li>functional component are easy to read as they have less code but the classs component have complex
+        code structure and hard to write. </li>
+    <li>In class component we uses the "this" keyword but in functional we dont need the keyword</li>
+</ul>
+<li>sateless vs statefull</li> Stateless component does not hold or manage state while statefull component 
+can hold or manage state, stateless component are easy to understand but the statefull component  it is complex
+as compared to the stateless component . stateless components does not work with react lifecycles but whereas 
+statefull work with lifecycle methods. stateless can not be reused while can be used in case of statefull component. 
+stateless component is also known as functional component. statefull is known as class component . 
+<li>What are the different phases of React component's lifecycle</li>In ReactJS, every component craetion process
+involves various lifecycle methods. These lifecycle methods are not very complicated and called at various 
+points during a component's life. the lifecycle of the component is divided into four phases . they are:
+1.Initial phase
+2.Mounting phase 
+3.Updating phase
+4.Unmounting phase
+Each phase contain some lifecycle methods that are specific to the particular phase. 
+</body>
+</html>
